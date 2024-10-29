@@ -1,7 +1,7 @@
 import { buffer } from "micro";
 import * as admin from "firebase-admin";
 
-const serviceAccount = require('../../../permissions.json');
+//const serviceAccount = require('../../../permissions.json');
 
 const fulfillOrder = async (session) => {
   return app
